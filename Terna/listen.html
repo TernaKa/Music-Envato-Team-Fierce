@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>musicShop_listenpage</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF" crossorigin="anonymous">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <!-- Your custom styles (optional) -->
+    <link href="./style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Righteous&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="fixed-sn mdb-skin">
+    <!--Double navigation-->
+    <header>
+
+      <!-- Sidebar navigation -->
+      <div id="slide-out" class="side-nav fixed sn-bg-1">
+        <ul class="custom-scrollbar">
+          <!-- Logo -->
+          <li style="background-color: white;margin-top: 20px;">
+            <div class="logo-wrapper sn-ad-avatar-wrapper">
+              <a href="#"><strong><span id="span1">M</span></strong> &nbsp;&nbsp; <strong id="span2" >MUSIC SHOP</strong></a>
+            </div>
+          </li>
+          <!--/. Logo -->
+          <!-- Side navigation links -->
+            <ul class="collapsible collapsible-accordion">
+              <li id="icon" >
+                <a id="toggle" class="waves-effect"
+                  ><i class="sv-slim-icon fas fa-headphones"></i>GENRE</a
+                >
+              </li>
+
+              <li id="icon" >
+                <a id="toggle" class="waves-effect"
+                  ><i class="sv-slim-icon fas fa-music"></i>PLAYLIST</a
+                >
+              </li>
+
+              <li id="icon" >
+                <a id="toggle" class="waves-effect"
+                  ><i class="sv-slim-icon fab fa-hotjar"></i>HOT 100</a
+                >
+              </li>
+
+              <li id="icon" >
+                <a id="toggle" class="waves-effect"
+                  ><i class="sv-slim-icon fab fa-hotjar"></i>FESTIVALS</a
+                >
+              </li>
+
+              <li id="icon" >
+                <a id="toggle" class="waves-effect"
+                  ><i class="sv-slim-icon fas fa-user-friends"></i>SHOWS</a
+                >
+              </li>
+
+              <li id="icon" >
+                <a id="toggle" class="waves-effect"
+                  ><i class="sv-slim-icon fas fa-podcast"></i>PODCASTS</a
+                >
+              </li>
+
+              <li id="icon" >
+                <a id="toggle" class="waves-effect"
+                  ><i class="sv-slim-icon fas fa-video"></i>VIDEOS</a
+                >
+              </li>
+
+              <li id="icon" >
+                <a id="toggle" class="waves-effect" href="./download.html"
+                  ><i class="sv-slim-icon fas fa-cloud-download-alt"></i
+                  >DOWNLOADS</a
+                >
+              </li>
+
+              <li id="icon" >
+                <a id="toggle" class="waves-effect"
+                  ><i class="sv-slim-icon fas fa-newspaper"></i>NEWS</a
+                >
+              </li>
+
+              <li id="icon" >
+                <a id="toggle" class="waves-effect"
+                  ><i class="fas fa-cog"></i></i
+                  >SETTINGS</a
+                >
+              </li>
+            </ul>
+          
+          <!--/. Side navigation links -->
+        </ul>
+        <div class="sidenav-bg rgba-blue-strong"></div>
+      </div>
+      <!--/. Sidebar navigation -->
+
+      <!--Navbar -->
+      <nav  class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav" id="topnav">
+        <!-- SideNav slide-out button -->
+        <div class="float-left">
+          <a href="#" data-activates="slide-out" class="button-collapse"><i class="fas fa-bars" style="color: orange;"></i></a>
+        </div>
+
+        <!-- ----- topNav ------ -->
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+          aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="breadcrumb-dn mr-auto">
+          <p></p>
+        </div>
+        <div class="collapse navbar-collapse" >
+          <ul class="navbar-nav mr-auto" class="collapsible collapsible-accordion">
+            <li class="nav-item">
+              <div class="input-group md-form form-sm form-2 pl-0">
+                <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search songs,album" aria-label="Search">
+                <div class="input-group-append">
+                  <span class="input-group-text amber lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                      aria-hidden="true"></i></span>
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+          <ul class="navbar-nav ml-auto nav-flex-icons">
+            <li class="nav-item" >
+              <a href="#" class="nav-link waves-effect waves-light" class="nav-item"  style="color: black;">About Us</a>
+            </li>
+            <li class="nav-item" >
+              <a href="#" class="nav-link waves-effect waves-light" class="nav-item"  style="color: black;">|</a>
+            </li>
+            <li class="nav-item" >
+              <a href="#" class="nav-link waves-effect waves-light" class="nav-item"  style="color: black;">playlist</a>
+            </li>
+            <li class="nav-item avatar dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-55" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <img src="./img/image 1.jpeg" class="rounded-circle z-depth-0" style="width: 40px; height: 40px;"
+                  alt="avatar image">
+              </a>
+              <div class="dropdown-menu dropdown-menu-lg-right dropdown-warning"
+                aria-labelledby="navbarDropdownMenuLink-55">
+                <a class="dropdown-item" href="#">logout</a>
+                <a class="dropdown-item" href="#">change DP</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" class="nav-item" style="color: black;">1
+                <i class="fas fa-bells" style="color: black;"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--/.Navbar -->
+      <!-- /.Navbar -->
+    </header>
+    <!--/.Double navigation-->
+
+
+
+
+
+    <!--Main Layout-->
+    <main>
+      <div class="container-fluid mt-10">
+        
+        <!-- ============= MY PLAYLIST SECTION ========================= -->
+        <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-2" data-ride="carousel">
+          
+          <div class="carousel-inner v-2" role="listbox">
+            <h5 style="margin-top: 20px;" >My playlist</h5>
+            <div class="carousel-item active">
+              <div class="col-12 col-md-2">
+                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg" alt="Card image cap" style="border-radius: 10px;">
+                  
+                  <div class="card-body" >
+                    <p>Evil Twin</p>
+                    <p id="par3">Mike Bern and Amanda</p>
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="col-12 col-md-2">
+                  <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (30).jpg" alt="Card image cap" style="border-radius: 10px;">
+                
+                  <div class="card-body">
+                    <p>Evil Twin</p>
+                    <p id="par3" >Mike Bern and Amanda</p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-12 col-md-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (36).jpg" alt="Card image cap" style="border-radius: 10px;"> 
+            
+                <div class="card-body">
+                  <p>Evil Twin</p>
+                  <p  id="par3">Mike Bern and Amanda</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-12 col-md-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (29).jpg" alt="Card image cap" style="border-radius: 10px;">
+            
+                <div class="card-body">
+                  <p>Evil Twin</p>
+                  <p id="par3">Mike Bern and Amanda</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="col-12 col-md-2">
+                <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/img (38).jpg" alt="Card image cap" style="border-radius: 10px;">
+            
+                <div class="card-body">
+                  <p>Evil Twin</p>
+                  <p id="par3">Mike Bern and Amanda</p>
+                </div>
+              </div>
+            </div>
+        
+          </div>
+          <!--Controls-->
+          <div class="controls-top">
+            <a class="btn-floating btn-warning" href="#carousel-example-multi" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+            <a class="btn-floating btn-warning" href="#carousel-example-multi" data-slide="next"><i class="fas fa-angle-right"></i></a>
+          </div>
+          <!--/.Controls-->
+        </div>
+
+        <!-- ============= END MY PLAYLIST SECTION ========================= -->
+
+
+        <!-- ============== TRENDING/BILLBOARD SECTION ============================ -->
+        <div>
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                  <h5 style="margin-top: 20px;" >Trending</h5>
+                  <Div class="row">
+                    <div class="col-lg-6" >
+                      <div class="row">
+                        <div class="col-lg-12 col-md-6 col-sm-6">
+                          <img src="./img/image 7.jpg" alt="" style="position: flex; width: 211px; height: 255px; margin-bottom: 10px; border-radius: 10px;">
+                        </div>
+                        <div class="col-lg-12 col-md-6 col-sm-6">
+                          <img src="./img/image 11.jpg" alt="" style=" width: 211px; height: 158px; margin-bottom: 10px; border-radius: 10px;">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6" style="left: -55px;" >
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <img src="./img/image 8.jpg" alt=""
+                            style="position: flex; width: 287px; height: 127px; margin-bottom: 10px; border-radius: 10px;">
+                        </div>
+                        <div class="col-lg-8">
+                          <img src="./img/image 9.jpg" alt="" style=" width: 169px; height: 154px; margin-bottom: 10px; border-radius: 10px;">
+                        </div>
+                        <div class="col-lg-4">
+                          <img src="./img/image 10.jpg" alt="" style=" width: 110px; height: 154px; margin-bottom: 10px; border-radius: 10px;">
+                        </div>
+                        <div class="col-lg-12">
+                          <img src="./img/image 9.jpg" alt=""
+                            style="position: flex; width: 295px; height: 124px; margin-bottom: 10px; border-radius: 10px;">
+                        </div>
+                      </div>
+                    </div>
+                  </Div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <h5 style="margin-top: 20px;">Top 5 billboard</h5>
+              <Div class="row">
+                <div class="col-lg-12">
+                  <div class="row">
+                    <!-- ============ -->
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                      <img src="./img/image 7.jpg" alt=""
+                        style="position: flex; width: 60px; height: 60px; margin-bottom: 10px; border-radius: 50%;">
+                        
+                    </div>
+                    <div class="col-lg-10 col-md-2 col-sm-2" style=" width: 100%;">
+                      <div class="row">
+                        <div class="col-lg-10 col-md-6 col-sm-6" >
+                        <p style="text-align: left; margin-top: 10px; margin-bottom: 2px; "> What's Love <br>
+                        <p style="text-align: left; font-family: roboto; "> Mike Bern</p>
+                        </p>
+                      </div>
+                      <div class="col-lg-2 col-md-4 col-sm-4">
+                        <p style="text-align: right; margin-top: 10px; margin-bottom: 2px; color: orange;"> 4:05</p>
+                      </div>
+                      </div><hr style="margin-top: 0px;">
+                    </div>
+                    
+                  <!-- ======================================================== -->
+
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                      <img src="./img/image 7.jpg" alt=""
+                        style="position: flex; width: 60px; height: 60px; margin-bottom: 10px; border-radius: 50%;">
+                    
+                    </div>
+                    <div class="col-lg-10 col-md-2 col-sm-2" style=" width: 100%;">
+                      <div class="row">
+                        <div class="col-lg-10 col-md-6 col-sm-6">
+                          <p style="text-align: left; margin-top: 10px; margin-bottom: 2px; "> What's Love <br>
+                          <p style="text-align: left; font-family: roboto; "> Mike Bern</p>
+                          </p>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4">
+                          <p style="text-align: right; margin-top: 10px; margin-bottom: 2px; color: orange;"> 4:05</p>
+                        </div>
+                      </div>
+                      <hr style="margin-top: 0px;">
+                    </div>
+
+                <!-- ================================================================ -->
+
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                      <img src="./img/image 7.jpg" alt=""
+                        style="position: flex; width: 60px; height: 60px; margin-bottom: 10px; border-radius: 50%;">
+                    
+                    </div>
+                    <div class="col-lg-10 col-md-2 col-sm-2" style=" width: 100%;">
+                      <div class="row">
+                        <div class="col-lg-10 col-md-6 col-sm-6">
+                          <p style="text-align: left; margin-top: 10px; margin-bottom: 2px; "> What's Love <br>
+                          <p style="text-align: left; font-family: roboto; "> Mike Bern</p>
+                          </p>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4">
+                          <p style="text-align: right; margin-top: 10px; margin-bottom: 2px; color: orange;"> 4:05</p>
+                        </div>
+                      </div>
+                      <hr style="margin-top: 0px;">
+                    </div>
+
+                  <!-- ======================================================= -->
+
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                      <img src="./img/image 7.jpg" alt=""
+                        style="position: flex; width: 60px; height: 60px; margin-bottom: 10px; border-radius: 50%;">
+                    
+                    </div>
+                    <div class="col-lg-10 col-md-2 col-sm-2" style=" width: 100%;">
+                      <div class="row">
+                        <div class="col-lg-10 col-md-6 col-sm-6">
+                          <p style="text-align: left; margin-top: 10px; margin-bottom: 2px; "> What's Love <br>
+                          <p style="text-align: left; font-family: roboto; "> Mike Bern</p>
+                          </p>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4">
+                          <p style="text-align: right; margin-top: 10px; margin-bottom: 2px; color: orange;"> 4:05</p>
+                        </div>
+                      </div>
+                      <hr style="margin-top: 0px;">
+                    </div>
+
+                    <!-- =================================================== -->
+                    <div class="col-lg-2 col-md-2 col-sm-2">
+                      <img src="./img/image 7.jpg" alt=""
+                        style="position: flex; width: 60px; height: 60px; margin-bottom: 10px; border-radius: 50%;">
+                    
+                    </div>
+                    <div class="col-lg-10 col-md-2 col-sm-2" style=" width: 100%;">
+                      <div class="row">
+                        <div class="col-lg-10 col-md-6 col-sm-6">
+                          <p style="text-align: left; margin-top: 10px; margin-bottom: 2px; "> What's Love <br>
+                          <p style="text-align: left; font-family: roboto; "> Mike Bern</p>
+                          </p>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-4">
+                          <p style="text-align: right; margin-top: 10px; margin-bottom: 2px; color: orange;"> 4:05</p>
+                        </div>
+                      </div>
+                      <hr style="margin-top: 0px;">
+                    </div>
+                    <!-- ========================================== -->
+                  </div>
+                </div>
+              </Div>
+            </div>
+          </div>
+        </div>
+        <!-- ============== END TRENDING/BILLBOARD SECTION ============================ -->
+
+
+        <!-- ============== MEDIA PLAYER SECTION ============================ -->
+>
+    </main>
+    <!--Main Layout-->
+
+
+
+
+    <!--Footer-->
+    <footer class="page-footer text-center text-md-left pt-4" style="background-color: #171C26;">
+      <!--Footer Links-->
+      <div class="container-fluid">
+        <div class="row">
+          <!--First column-->
+          <div class="col-lg-3 col-md-3">
+            <div class="logo-wrapper sn-ad-avatar-wrapper">
+              <a href="#"><strong><span id="span1">M</span></strong> &nbsp;&nbsp; <strong id="span3" >MUSIC SHOP</strong></a>
+            </div>
+            <p style="font-family: roboto; font-weight: bold; font-size: 13px; font-style: normal; font-weight: normal; margin-top: 30px; line-height: 18px;">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ratione, 
+              tempora neque maiores consequatur vero sit vitae ab quo adipisci reprehenderit, 
+              corporis quae quasi architecto voluptate, rerum in? Quod, illum.
+            </p>
+          </div>
+          <!--/.First column-->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!--Second column-->
+          <div class="col-lg-3 col-md-2 mx-auto">
+            <h5 class="text-uppercase mb-4" style="font-style: normal; font-weight: normal;">JOIN OUR MAILING LIST</h5>
+            <hr class="deep-orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
+            <p style="font-family: roboto; font-weight: bold; font-size: 13px; font-style: normal; font-weight: normal; margin-top: 15px; line-height: 18px;">
+              Sign our monthly newsletter and learn abou our newest release and more  
+            </p>
+            <ul class="list-unstyled">
+              <li><input type="text"  class="form-control white-text" placeholder="NAME">
+              <label for="name"></label></li>
+              <li><input type="text"  class="form-control white-text" placeholder="EMAIL">
+                <label for="email"></label></li>
+              <li><a href="" class="btn btn-warning" style="border-radius: 50px; ">Subscribe</a> </li>
+            </ul>
+          </div>
+          <!--/.Second column-->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!--Third column-->
+          <div class="col-lg-3 col-md-2 mx-auto">
+            <h5 class="text-uppercase mb-4" style="font-style: normal; font-weight: normal;">DOWNLOAD OUR APP</h5>
+            <hr class="deep-orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+
+            <p
+              style="font-family: roboto; font-weight: bold; font-size: 13px; font-style: normal; font-weight: normal; margin-top: 15px; line-height: 18px;">
+              go mobile with our app and sync with your favourite groove
+            </p>
+            <ul class="list-unstyled" style="font-family: roboto; font-weight: bold;">
+              <!-- <li><input type="text" class="form-control white-text" placeholder="NAME">
+                <label for="name"></label></li>
+              <li><input type="text" class="form-control white-text" placeholder="EMAIL">
+                <label for="email"></label></li> -->
+                <button type="button" class="btn btn-warning">
+                  
+                  <span><i class="fab fa-google-play"></i></span>
+                  <sup style="font-size: 10px; text-align: left;">get it on</sup><br> Google play 
+                </button>
+                <button type="button" class="btn btn-warning">
+                
+                  <span><i class="fab fa-apple"></i></span>
+                  <sup style="font-size: 10px; text-align: left;">get it on</sup><br> Apple store
+                </button>
+            </ul>
+          </div>
+          <!--/.Third column-->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!--Fourth column-->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="font-family: roboto; font-weight: bold; font-size: 13px; font-style: normal; font-weight:normal;">
+          
+            <!-- Links -->
+            <h5 class="text-uppercase mb-4" style="font-style: normal; font-weight: normal;"> CONTACT US </h5>
+            <hr class="deep-orange accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <i class="fas fa-phone mr-3" style="color: orange;"></i> (+234) 123 456 7890</p>
+            <p>
+              <i class="fas fa-envelope mr-3" style="color: orange;"></i> musicshop@demo.com</p>
+            <p>
+                <i class="fas fa-home mr-3" style="color: orange;"></i> 147 brook street, corner inn at the right axis</p>
+            <p>
+              follow us : <i class="fab fa-twitter mr-3" style="color: orange;"></i><i class="fab fa-facebook-f mr-3" style="color: orange;"></i><i class="fab fa-linkedin mr-3" style="color: orange;"></i></i></p>
+          
+          </div>
+          <!--/.Fourth column-->
+        </div>
+      </div>
+      <!--/.Footer Links-->
+
+      <hr />
+
+        <!--Copyright-->
+        <div class="footer-copyright py-3 text-center">
+          <div class="container-fluid" style="font-family: roboto; font-weight: bold; font-size: 13px;">
+              Copyright © 2020<a href="#" style="color: orange;"> The Music Shop </a>
+              All Righ Reserved
+          </div>
+        </div>
+        <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        // SideNav Initialization
+        $(".button-collapse").sideNav();
+      });
+    </script>
+
+    <script>
+      $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function () {
+          var next = $(this).next();
+          if (!next.length) {
+            next = $(this).siblings(':first');
+          }
+          next.children(':first-child').clone().appendTo($(this));
+
+          for (var i = 0; i < 4; i++) {
+            next = next.next();
+            if (!next.length) {
+              next = $(this).siblings(':first');
+            }
+            next.children(':first-child').clone().appendTo($(this));
+          }
+        });
+    </script>
+  </body>
+</html>
